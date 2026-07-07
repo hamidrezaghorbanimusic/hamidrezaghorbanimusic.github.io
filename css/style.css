@@ -351,3 +351,147 @@ font-weight:bold;
 .music-card .btn:hover{
 background:#dcdcdc;
 }
+/* ===== Premium Hero ===== */
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.65));
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px 20px;
+}
+
+.profile-image{
+width:280px;
+height:280px;
+object-fit:cover;
+border-radius:50%;
+border:5px solid rgba(255,255,255,.9);
+box-shadow:0 15px 45px rgba(0,0,0,.45);
+margin-bottom:25px;
+transition:.4s;
+}
+
+.profile-image:hover{
+transform:scale(1.03);
+}
+
+.hero h1{
+font-size:64px;
+font-weight:900;
+letter-spacing:3px;
+margin:15px 0;
+color:#fff;
+}
+
+.hero h2{
+font-size:24px;
+font-weight:300;
+color:#d6d6d6;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+color:#eee;
+max-width:700px;
+line-height:1.8;
+margin-bottom:35px;
+}
+
+.buttons{
+display:flex;
+gap:18px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.buttons a{
+background:#ffffff;
+color:#111;
+padding:14px 32px;
+border-radius:40px;
+font-weight:700;
+text-decoration:none;
+transition:.3s;
+}
+
+.buttons a:hover{
+background:#c9a74d;
+color:#fff;
+transform:translateY(-3px);
+}
+
+/* ===== Music Cards ===== */
+
+.music-card{
+background:#1d1d1d;
+border-radius:20px;
+padding:20px;
+margin:25px auto;
+max-width:520px;
+box-shadow:0 8px 30px rgba(0,0,0,.25);
+transition:.3s;
+}
+
+.music-card:hover{
+transform:translateY(-5px);
+}
+
+.music-card img{
+width:100%;
+border-radius:14px;
+margin-bottom:15px;
+}
+
+.music-card h3{
+color:white;
+margin:10px 0;
+}
+
+.music-card p{
+color:#bbb;
+margin-bottom:15px;
+}
+
+.music-card audio{
+width:100%;
+margin-bottom:15px;
+}
+
+.music-card .btn{
+display:inline-block;
+background:#c9a74d;
+color:white;
+padding:12px 22px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
+
+.music-card .btn:hover{
+background:#ffffff;
+color:#111;
+}
+
+/* ===== Mobile ===== */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.hero h2{
+font-size:20px;
+}
+
+.profile-image{
+width:220px;
+height:220px;
+}
+
+  }
