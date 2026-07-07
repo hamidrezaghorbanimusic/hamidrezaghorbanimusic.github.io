@@ -295,3 +295,59 @@ color:#cccccc;
     color:white;
     transform:translateY(-5px);
   }
+
+.music-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.music-card{
+background:#151515;
+border-radius:18px;
+padding:20px;
+text-align:center;
+transition:.3s;
+box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.music-card:hover{
+transform:translateY(-6px);
+}
+
+.music-card img{
+width:100%;
+border-radius:15px;
+margin-bottom:15px;
+}
+
+.music-card h3{
+margin:10px 0;
+font-size:24px;
+}
+
+.music-card p{
+opacity:.8;
+margin-bottom:15px;
+}
+
+.music-card audio{
+width:100%;
+margin:15px 0;
+}
+
+.music-card .btn{
+display:inline-block;
+margin-top:10px;
+padding:12px 20px;
+border-radius:30px;
+text-decoration:none;
+background:#ffffff;
+color:#111;
+font-weight:bold;
+}
+
+.music-card .btn:hover{
+background:#dcdcdc;
+}
