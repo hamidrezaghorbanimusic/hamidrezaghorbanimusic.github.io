@@ -854,7 +854,7 @@ opacity:.6;
 
 transform:scale(1.4);
 
-opacity:1;
+  opacity:1;
 
 }
 
@@ -881,8 +881,92 @@ padding:7px 14px;
 margin:12px auto;
 
 }
+  
+}
+.latest-album{
+    width:90%;
+    max-width:900px;
+    margin:70px auto;
+    padding:45px 35px;
+
+    text-align:center;
+
+    border:1px solid rgba(54,168,255,.25);
+    border-radius:25px;
+
+    background:rgba(54,168,255,.05);
+
+    box-shadow:0 0 35px rgba(54,168,255,.15);
+}
+
+.album-tag{
+
+    display:inline-block;
+
+    color:#36a8ff;
+
+    font-size:.8rem;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    margin-bottom:18px;
+}
+
+.latest-album h2{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+    color:#fff;
+}
+
+.latest-album p{
+
+    max-width:650px;
+
+    margin:0 auto 30px;
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+}
+
+.latest-album:hover{
+
+    box-shadow:0 0 55px rgba(54,168,255,.35);
+
+    transition:.4s;
+}
+
+@media(max-width:768px){
+
+.latest-album{
+
+padding:35px 20px;
+
+margin:50px 20px;
 
 }
+
+.latest-album h2{
+
+font-size:34px;
+
+}
+
+.latest-album p{
+
+font-size:15px;
+
+}
+
+}
+
+
+  
 
 
 
