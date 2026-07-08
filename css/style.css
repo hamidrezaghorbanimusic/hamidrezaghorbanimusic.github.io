@@ -104,7 +104,10 @@ letter-spacing:2px;
 color:#36a8ff;
 
 }
-
+<div class="live-badge">
+    <span class="live-dot"></span>
+    NEW SINGLE OUT NOW
+</div>
 nav ul{
 
 display:flex;
