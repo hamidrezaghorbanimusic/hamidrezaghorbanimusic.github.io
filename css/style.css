@@ -652,10 +652,9 @@ nav{
     font-size:2rem;
     line-height:1.2;
 }
-
-.hero h2{
-    font-size:1.2rem;
-    margin-top:10px;
+  
+.hero-image{
+    margin-top: 90px;
 }
 
 .hero p{
