@@ -763,6 +763,43 @@ gap:15px;
 flex-wrap:wrap;
 
 }
+/* ===== Mobile Latest Release ===== */
+@media (max-width:768px){
+
+.latest-release{
+    padding:50px 20px;
+}
+
+.latest-release h2{
+    font-size:2.3rem;
+    line-height:1.4;
+}
+
+.latest-release p{
+    font-size:1rem;
+    margin:20px 0 30px;
+}
+
+.release-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+.release-buttons .btn,
+.release-buttons .btn-outline{
+    width:90%;
+    max-width:320px;
+    text-align:center;
+}
+
+  }
+
+
+
+
+
 
 
 
