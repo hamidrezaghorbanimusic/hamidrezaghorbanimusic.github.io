@@ -702,6 +702,70 @@ section{
     color:#fff;
   }
 
+.latest-release{
+
+padding:70px 20px;
+
+text-align:center;
+
+background:#0f0f0f;
+
+}
+
+.release-tag{
+
+display:inline-block;
+
+padding:8px 18px;
+
+background:#1e90ff;
+
+border-radius:30px;
+
+font-size:.8rem;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+margin-bottom:20px;
+
+}
+
+.latest-release h2{
+
+font-size:2.2rem;
+
+margin-bottom:15px;
+
+color:#fff;
+
+}
+
+.latest-release p{
+
+color:#bdbdbd;
+
+font-size:1.1rem;
+
+margin-bottom:35px;
+
+}
+
+.release-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:15px;
+
+flex-wrap:wrap;
+
+}
+
+
+
 
 
 
